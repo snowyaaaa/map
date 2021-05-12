@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         IB Minimap
 // @namespace    http://tampermonkey.net/
-// @version      0.9
+// @version      1.0
 // @description  IB PixelPlanet Minimap
 // @author       IlyaBOT
 // @match        https://pixelplanet.fun/*
-// @match        https://fuckyouarkeros.fun/*
+// @match        http://pixelplanet.fun/*
 // @homepage     https://github.com/snowyaaaa/map
-// @updateURL    https://raw.githubusercontent.com/snowloin/map/main/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/snowloin/map/main/minimap.user.js
+// @updateURL    https://raw.githubusercontent.com/snowyaaaa/map/main/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/snowyaaaa/map/main/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 45;
-window.baseTepmlateUrl = 'https://github.com/snowyaaaa/map/main/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/snowyaaaa/map/main/';
 
 window.addEventListener('load', function () {
     //Регулярное выражение для получения координат из URL-адреса
