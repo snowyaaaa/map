@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IB Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  IB PixelPlanet Minimap
 // @author       IlyaBOT
 // @match        https://pixelplanet.fun/*
