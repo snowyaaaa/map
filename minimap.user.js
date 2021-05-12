@@ -5,7 +5,7 @@
 // @description  IB PixelPlanet Minimap
 // @author       IlyaBOT
 // @match        https://pixelplanet.fun/*
-// @match        http://pixelplanet.fun/*
+// @match        https://fuckyouarkeros.fun/*
 // @homepage     https://github.com/snowyaaaa/map
 // @updateURL    https://raw.githubusercontent.com/snowloin/map/main/minimap.user.js
 // @downloadURL  https://raw.githubusercontent.com/snowloin/map/main/minimap.user.js
