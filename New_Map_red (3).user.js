@@ -20,7 +20,7 @@
     //   optimizacia
     var errors = false
 
-    var fps =1000/10; // fps 1000=1sec
+    var fps =1000/5; // fps 1000=1sec
     var render_distance = 460;//px render distance
 
 
@@ -58,7 +58,7 @@
 
     var fractions =['https://raw.githubusercontent.com/Autumn-Blaze/Autumn-Blaze.github.io/master/PP/images/','https://raw.githubusercontent.com/snowyaaaa/map/main/images/','https://fuckyouarkeros.fun/chunks/0/51/'];
 
-    var images =["S_2-7.png",-24576,-4096,4096,4096,0,false,"S_3-7.png",-20480,-4096,4096,4096,0,true,"S_4-7.png",-16384,-4096,4096,4096,0,false,"S_2-6.png",-24576,-8192,4096,4096,0,false,"S_3-6.png",-20480,-8192,4096,4096,0,false,"S_3-8.png",-20480,0,4096,4096,0,true,'ppfunconvert%202.png',23030,27100,1280,910,1,false,'123.bmp',0,0,300,300,2,false,'dr.png',267,395,51,51,1,false,]; // images
+    var images =["S_2-7.png",-24576,-4096,4096,4096,0,false,"S_3-7.png",-20480,-4096,4096,4096,0,true,"S_4-7.png",-16384,-4096,4096,4096,0,false,"S_2-6.png",-24576,-8192,4096,4096,0,false,"S_3-6.png",-20480,-8192,4096,4096,0,false,"S_3-8.png",-20480,0,4096,4096,0,true,'ppfunconvert%202.png',23030,27100,1280,910,1,false,'123.bmp',0,0,300,300,2,false,'dr.png',654,215,51,51,1,false,]; // images
     var sector_images=[]
     let r=0,g=0,b=0,color;
 
@@ -133,8 +133,6 @@
         //  })
 
         setInterval(function(){
-    var node = document.getElementsByClassName('layout')[0]
-    console.log(node)
 
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -166,7 +164,7 @@
             if(auto_zoom){
                 url = window.location.href.split('=')[3];
                 if( url<183 ){
-                    z= Number(zoom_lv-(url/10));
+                    z= Math.round(Number(zoom_lv-(url/10)))
                     layr2_ctx.clearRect(0, 0, layr2.width, layr2.height);
                 }else if(url>190)
                 {layr2_ctx.clearRect(0, 0, layr2.width, layr2.height);z=1}
@@ -199,7 +197,7 @@
             url = window.location.href.split('=')[2];
             nxstring = url.split('&').join('');
             var numy = nxstring.split('px').join('');
-            console.log(numx,numy)
+
 
             //_______________________________________________________________________\\
 
@@ -243,7 +241,10 @@
 
         function drawImage_ActualSize(name,x,y,X,Y,endX,endY,F_NUM,GRID){
 
-            if((x/z)>X-render_distance && (x/z)<X+endX+render_distance && (y/z)>Y-render_distance && (y/z)<Y+render_distance+endY && F_NUM == selceted_fractions ){//  render dictance
+
+            if([(x/z)>X-render_distance] && (x/z)<X+endX+render_distance && [(y/z)>Y-render_distance] && [(y/z)<Y+render_distance+endY] && F_NUM == selceted_fractions ){//  render dictance
+console.log('2')
+
                 switch(pereklyuchatel){
                     case 0:
 
@@ -258,7 +259,7 @@
 
 
 
-                        ctx.drawImage(image, x*z-(x*z*2)+(map_siz_x/2+z/2)+(X*z) , y*z-(y*z*2)+(map_siz_y/2+z/2)+(Y*z) , image.width*z, image.height*z);// draw image
+                        ctx.drawImage(image, x*z-(x*z*2)+(map_siz_x/2+z/2)+(X*z) , (y*z-(y*z*2)+(map_siz_y/2+z/2)+(Y*z)) , image.width*z, image.height*z);// draw image
 
 
                         if(sectors&&GRID){
