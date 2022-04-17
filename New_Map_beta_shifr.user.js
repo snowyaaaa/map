@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New_Map_beta_shifr
 // @namespace    http://tampermonkey.net/
-// @version      5
+// @version      6
 // @description  try to take over the world!
 // @author       Artak
 // @include      *://pixelplanet.fun/*
