@@ -38,7 +38,7 @@
 	"width": 4096,
 	"height": 4096,
 	"sectors":true
-	}
+	},
 	"6": {
 	"name": "S_4-7.png",
 	"x": -16384,
@@ -46,6 +46,6 @@
 	"width": 4096,
 	"height": 4096,
 	"sectors":false
-	},
+	}
 
 }
