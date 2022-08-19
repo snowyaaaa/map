@@ -2,7 +2,7 @@
 
 	"арт млпп 1": {
 	"name": "Concert.png",
-	"x": -236,
+	"x": 236,
 	"y": -23,
 	"width": 189,
 	"height": 56,
@@ -16,7 +16,7 @@
 	"height": 68,
 	"sectors":false
 	}, 
-  "арт млпп 3": {
+  	"арт млпп 3": {
 	"name": "Fluttershy_top.png",
 	"x": 833,
 	"y": -610,
@@ -24,7 +24,7 @@
 	"height": 98,
 	"sectors":false
 	},
-  "арт млпп 4": {
+ 	 "арт млпп 4": {
 	"name": "foe_top.png",
 	"x": 617,
 	"y": -1000,
