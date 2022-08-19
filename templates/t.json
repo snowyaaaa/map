@@ -1,0 +1,37 @@
+{	
+
+	"арт млпп 1": {
+	"name": "Concert.png",
+	"x": -236,
+	"y": -23,
+	"width": 189,
+	"height": 56,
+	"sectors":false
+	},
+ 	"арт млпп 2": {
+	"name": "Derpy_top.png",
+	"x": 162,
+	"y": 434,
+	"width": 119,
+	"height": 68,
+	"sectors":false
+	}, 
+  "арт млпп 3": {
+	"name": "Fluttershy_top.png",
+	"x": 833,
+	"y": -610,
+	"width": 167,
+	"height": 98,
+	"sectors":false
+	},
+  "арт млпп 4": {
+	"name": "foe_top.png",
+	"x": 617,
+	"y": -1000,
+	"width": 383,
+	"height": 204,
+	"sectors":false
+	} 
+
+
+}
