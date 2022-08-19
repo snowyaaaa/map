@@ -1,0 +1,29 @@
+{	
+
+	"арт млпп 1": {
+	"name": "catb.png",
+	"x": 11388,
+	"y": 25768,
+	"width": 8000,
+	"height": 7000,
+	"sectors":false
+	},
+ 	"арт млпп 2": {
+	"name": "loadingb.png",
+	"x": -32768,
+	"y": 32511,
+	"width": 256,
+	"height": 257,
+	"sectors":false
+	}, 
+  "арт млпп 3": {
+	"name": "mageb.png",
+	"x": 10501,
+	"y": 32054,
+	"width": 500,
+	"height": 713,
+	"sectors":false
+	} 	
+
+
+}
