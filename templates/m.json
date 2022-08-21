@@ -1,5 +1,12 @@
 {	
-
+	"мой дракончик <3": {
+	"name": "drakonchik_fin.png",
+	"x": -676,
+	"y": -2043,
+	"width": 117,
+	"height": 167,
+	"sectors":false
+	},
 	"арт млпп 1": {
 	"name": "NM.png",
 	"x": -1028,
@@ -14,14 +21,6 @@
 	"y": 6512,
 	"width": 1920,
 	"height": 1680,
-	"sectors":false
-	},
-	"мой дракончик <3": {
-	"name": "drakonchik_fin.png",
-	"x": -676,
-	"y": -2043,
-	"width": 117,
-	"height": 167,
 	"sectors":false
 	}
 
