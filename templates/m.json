@@ -16,12 +16,12 @@
 	"height": 1680,
 	"sectors":false
 	},
-	"dragon": {
+	"мой дракончик <3": {
 	"name": "drakonchik_fin.png",
-	"x": -720,
-	"y": -2056,
-	"width": 1920,
-	"height": 1680,
+	"x": -676,
+	"y": -2043,
+	"width": 117,
+	"height": 167,
 	"sectors":false
 	}
 
