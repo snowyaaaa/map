@@ -46,6 +46,14 @@
 	"width": 4096,
 	"height": 4096,
 	"sectors":false
+	},
+	"7": {
+	"name": "gf.png",
+	"x": -2750,
+	"y": 2263,
+	"width": 200,
+	"height": 199,
+	"sectors":false
 	}
 
 }
