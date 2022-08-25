@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         New_Map_beta
+// @name         New_Map_beta_shifr
 // @namespace    http://tampermonkey.net/
 // @version      1.13
 // @description  try to take over the world!
