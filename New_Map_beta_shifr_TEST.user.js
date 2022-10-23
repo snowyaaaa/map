@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         New_Map_beta_shifr_TEST
 // @namespace    http://tampermonkey.net/
-// @version      1.22
+// @version      1.22.1
 // @description  try to take over the world!
 // @author       Artak and Endless Night
 // @include      *://pixelplanet.fun/*
