@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.22.2
 // @description  try to take over the world!
-// @author       Artak and Endless Night : beta testers    Серёжа Иванов
+// @author       Artak and Endless Night : beta testers   Sallbet
 // @include      *://pixelplanet.fun/*
 // @include      *://fuckyouarkeros.fun/*
 // @icon         https://www.google.com/s2/favicons?domain=fuckyouarkeros.fun
