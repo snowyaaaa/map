@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         pz test ALPHA
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       Artak and Endless Night
 // @include      *pixelzone.io/*
