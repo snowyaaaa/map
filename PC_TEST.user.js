@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         PC TEST
+// @name         PC_TEST
 // @namespace    http://tampermonkey.net/
 // @version      1
 // @description  KILL ME!
