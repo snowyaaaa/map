@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MLPP MAP
 // @namespace    http://tampermonkey.net/
-// @version      2024-07-03-BETA-5
+// @version      0.1
 // @description  try to take over the PP!
 // @author       Artak : beta testers Sallbet
 // @match      *://pixelplanet.fun/*
