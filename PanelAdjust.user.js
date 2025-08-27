@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Panel Adjust FOR MLPP
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @icon data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA7UlEQVR4nO2YTQ6CMBBGuYV01dbTQLiO1otIzyU9AnABgb2GxJ9YFqTNOCX6vWS2k+8lbTPTLAMAgE2yO7kqN64Xxt1CKj+6LjdN6ffb19dK10Ov7XgLKWWHTtpp0W+VOUho+JeEaVq/3xwkNLx+Syz6rRIb/ll+v9jw+lEQEBAYIRAEBH7tGZV2KmMklB1aeZ6K5ALsCAgkRkDgu9MtuwD1dMsuwH4kBQQ+gUAo1JeOX8A0ZYzEHD4/XIrkAtRAIDUQCIX6J41dQBGvgOwCmngJh0AoEPCAwN8JKOJnlH2llMQ/adTTLQAAZJvgDjMIzITsihWCAAAAAElFTkSuQmCC
 // @description  Перемещает панель в угол и уменьшает кнопки
 // @author       Artak
@@ -122,7 +122,7 @@
                     innerGrid.style.width = 'auto';
                 }
 
-                console.log('Панель перемещена в угол и кнопки уменьшены.');
+              //  console.log('Панель перемещена в угол и кнопки уменьшены.');
             })();
         }, 100);
     }
